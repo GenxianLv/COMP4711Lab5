@@ -12,7 +12,7 @@ class News extends Controller {
 
         $data = [
             'news' => $model->getNews(),
-            'title' => 'News archive',
+            'title' => 'GenxianLv archive',
         ];
 
         echo view('templates/header', $data);
